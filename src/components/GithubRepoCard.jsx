@@ -12,6 +12,7 @@ const GithubRepoCard = ({ stars, avatar, desc, name, link, issues, update, owner
         return dateParser.format(time)
     }
 
+    
     return (
         <Flex shadow={"lg"} maxW={600} my={5} rounded={"sm"} flexWrap={"wrap"} gap={5}>
             <LinkBox w={isMobile ? "100%" : 150}>

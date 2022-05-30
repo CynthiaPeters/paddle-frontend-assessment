@@ -1,4 +1,4 @@
-import { Box, Container, Flex, Hide, HStack, Image, LinkBox, Spacer,, useDisclosure } from '@chakra-ui/react'
+import { Box, Container, Flex, Hide, HStack, Image, LinkBox, Spacer, useDisclosure } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { Link } from "react-router-dom"
 import logoWhite from "../assets/logo-white.png"

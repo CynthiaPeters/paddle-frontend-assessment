@@ -3,7 +3,7 @@ import {BLUE, DARK_PURPLE, PURPLE} from "../utils/index"
 import React, { useState } from 'react'
 import bg from "../assets/page.jpeg"
 import { IoArrowForward } from 'react-icons/io5'
-import ContactInput from '../components/ContactInput'
+import contactInput from '../components/contactInput'
 import Button from '../components/Button'
 
 const Contact = ({ isOpen, onToggle }) => {
