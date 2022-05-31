@@ -6,7 +6,7 @@ import FormInput from '../components/FormInput'
 import Header from '../components/Header'
 import TimeCard from '../components/TimeCard'
 import { FontContext } from '../contexts/fontContext'
-import { BLUE, DARK_PURPLE } from './utils'
+import { BLUE, DARK_PURPLE } from '../utils'
 
 const Landing = () => {
     const { DEFAULT_FONT_SIZE } = useContext(FontContext)

@@ -2,7 +2,7 @@ import { LinkBox } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FontContext } from '../contexts/fontContext'
-import { PINK } from '../pages/utils'
+import { PINK } from '../utils'
 
 const HeaderLink = ({ path, title, isDark }) => {
     const { DEFAULT_FONT_SIZE } = useContext(FontContext)

@@ -1,7 +1,7 @@
 import { LinkBox } from '@chakra-ui/react'
 import React, { useContext } from 'react'
 import { FontContext } from '../contexts/fontContext'
-import { PURPLE } from '../pages/utils'
+import { PURPLE } from '../utils'
 
 const Button = ({ handleClick, color, isDark, title, isLarge }) => {
     const { DEFAULT_FONT_SIZE } = useContext(FontContext)

@@ -1,4 +1,4 @@
-import { FormControl, FormLabel, Input, Text, Textarea, VStack } from '@chakra-ui/react'
+import { FormControl, FormLabel, Input, Textarea,} from '@chakra-ui/react'
 import React from 'react'
 
 const ContactInput = ({ label, placeholder, value, handleChange, isText, pV }) => {
