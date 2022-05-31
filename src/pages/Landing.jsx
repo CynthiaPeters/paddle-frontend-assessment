@@ -6,7 +6,7 @@ import FormInput from '../components/FormInput'
 import Header from '../components/Header'
 import TimeCard from '../components/TimeCard'
 import { FontContext } from '../contexts/fontContext'
-import { BLUE, DARK_PURPLE } from '../utils'
+import { BLUE, DARK_PURPLE } from './utils'
 
 const Landing = () => {
     const { DEFAULT_FONT_SIZE } = useContext(FontContext)
@@ -81,7 +81,7 @@ const Landing = () => {
            <Container mt={10} position={"relative"} zIndex={10}>
                 <Heading textAlign={"center"} fontWeight={800} fontSize={FONT_SIZE} letterSpacing={"wide"} lineHeight={1.5} color={"white"} textTransform={"uppercase"}>Something awesome is <br /> coming soon</Heading>
                 <Text mt={4} fontSize={FONT_SIZE * .4} textAlign={"center"} color={"white"} fontWeight={"thin"}>
-                    Your all-in-one affliate marketing tracking software <strong style={styles.bold}>track</strong>, <strong style={styles.bold}>automate</strong> and <br /> <strong style={styles.bold}>optimize</strong> your campaign.
+                    Your all-in-one affiliate marketing tracking software <strong style={styles.bold}>track</strong>, <strong style={styles.bold}>automate</strong> and <br /> <strong style={styles.bold}>optimize</strong> your campaign.
                 </Text>
 
                 <HStack mt={5} gap={2} justifyContent={"center"}>

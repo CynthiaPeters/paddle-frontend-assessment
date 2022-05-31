@@ -1,5 +1,5 @@
 import { Box, Fade, Flex, Heading, Icon, IconButton, Spacer, useMediaQuery, VStack } from '@chakra-ui/react'
-import {BLUE, DARK_PURPLE, PURPLE} from "../utils/index"
+import {BLUE, DARK_PURPLE, PURPLE} from "./utils/index"
 import React, { useState } from 'react'
 import bg from "../assets/page.jpeg"
 import { IoArrowForward } from 'react-icons/io5'
