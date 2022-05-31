@@ -75,11 +75,11 @@ const Landing = () => {
     }, [])
 
     return (
-        <Box minH={"100vh"} w={"full"} bgColor={DARK_PURPLE}> 
+        <Box minH={"100"} w={"full"} bgColor={DARK_PURPLE}> 
             <Header isDark />
 
            <Container mt={10} position={"relative"} zIndex={10}>
-                <Heading textAlign={"center"} fontWeight={800} fontSize={FONT_SIZE} letterSpacing={"wide"} lineHeight={1.5} color={"white"} textTransform={"uppercase"}>Something awesome is <br /> coming soon</Heading>
+                <Heading textAlign={"center"} fontWeight={600} fontSize={FONT_SIZE * 1} letterSpacing={"wide"} lineHeight={1.5} color={"white"} textTransform={"uppercase"}>Something awesome is coming soon</Heading>
                 <Text mt={4} fontSize={FONT_SIZE * .4} textAlign={"center"} color={"white"} fontWeight={"thin"}>
                     Your all-in-one affiliate marketing tracking software <strong style={styles.bold}>track</strong>, <strong style={styles.bold}>automate</strong> and <br /> <strong style={styles.bold}>optimize</strong> your campaign.
                 </Text>

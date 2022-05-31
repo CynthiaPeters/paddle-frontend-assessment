@@ -32,7 +32,7 @@ const Header = ({ isDark }) => {
                     <Spacer />
 
                     <Hide below={"768"}>
-                        <HStack gap={10}>
+                        <HStack gap={15}>
                             { links.map((link, index) => (
                                 <HeaderLink isDark={isDark} key={`${link.title}-${index}`} {...link} index={index} />
                             ))}
