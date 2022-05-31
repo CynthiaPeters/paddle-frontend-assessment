@@ -36,3 +36,20 @@ DEPENDENCIES#
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0"
 
+How to use#
+
+Clone or download the repo from: https://github.com/CynthiaPeters/paddle-frontend-assessment.git
+
+Copy env.sample to .env, or at least set env.REACT_APP_LOG_LEVEL = DEBUG | INFO | WARN | ERROR variable
+Replace _TITLE_ and _DESCRIPTION_ in all files with own texts
+Create Favorite Icon images and put them into /public/img/favicon, the favicon.ico file should be paced into root of /public folder.
+Add your own code :)
+Available Scripts
+In the project directory, you can run:
+
+npm start or npm run dev
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits.
+You will also see any lint errors in the console.
