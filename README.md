@@ -1,8 +1,8 @@
-This project is based on an assessment. Merics is a User-friendly all-in-one affiliate marketing web Application that enables setup, launch, automate and manage multi-affiliate campaigns in few minutes. This website contains highlights of campaigns allows users to track and optimize their campaigns.
+This project is based on an assessment. Merics is a User-friendly all-in-one affiliate marketing web Application that enables setup, launch, automate and manage multi-affiliate campaigns in few minutes. This website contains highlights of campaigns allowing users to track and optimize their campaigns.
 
 LIBRARY#
 
-Chakra UI library is a simple, modular and accessible component library that gives the building blocks needed to build React applications.
+Chakra UI library is a simple, modular and accessible component library.
 
 Installation#
 
