@@ -36,7 +36,7 @@ DEPENDENCIES#
     "react-icons": "^4.3.1",
     "react-router-dom": "^6.3.0"
 
-How to use#
+HOW TO RUN#
 
 Clone or download the repo from: https://github.com/CynthiaPeters/paddle-frontend-assessment.git
 
