@@ -50,11 +50,11 @@ Clone or download the repo from: https://github.com/CynthiaPeters/paddle-fronten
 git clone https://github.com/CynthiaPeters/paddle-frontend-assessment.git
 
 
-Install the dependencies, based you your preferred package manager (i.e yarn or npm) you can run the following command on your terminal
+Install the dependencies, based on your preferred package manager (i.e yarn or npm) you can run the following command on your terminal
     # Yarn 
     yarn
 
-    # **NPM**
+    # NPM
     npm install 
     # or
     npm i
@@ -62,7 +62,7 @@ Start the development server, you can use the following command to start the dev
     # Yarn 
     yarn dev
 
-    # **NPM**
+    # NPM
     npm run dev
 
 The page will reload if you make edits and save, You will also see any lint errors in the console.
